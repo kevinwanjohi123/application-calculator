@@ -1,0 +1,12 @@
+img {
+  float: left;
+}
+div {
+  width: 320px;
+  padding: 110px;
+  border: 105px solid gray;
+  margin: 1000;
+}
+body {
+  background-color: lightblue;
+}
