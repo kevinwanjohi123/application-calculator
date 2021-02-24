@@ -17,31 +17,27 @@
       vacate from Maasai Mara game reserve to Tserengeti in a moment of time.
       <img src="images/magiclamp.jpg" alt="Alladin magical lamp" width="500" height="600">
     </div>
-    <h2>Text input fields</h2>
-    <form action="/action_page.php">
-    <label for="fname">Birthday:</label><br>
-    <input type="text" id="bday" name="bday" value="dd/mm/yy"><br>
-    <label for="lname">Gender:</label><br>
-    <input type="text" id="gender" name="gender" value="male/female"><br><br>
+    <h2></h2>
+    <form action="">
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
     <input type="submit" value="Submit">
+    <form action="/action_page.php">
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
     </form>
-
-
-    <h2>Javascript Arrays</h2>
     <script>
-      var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+     var weekDays = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
-      console.log(weekDays);
+     var maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 
-      var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-
-      console.log(maleNames);
-
-      var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
-      console.log(femaleNames);
-
-      </script>
-      <h3>Javascript Functions</h3>
-      <script src="application.js"></script>
+     var femaleNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+     </script>
+    <script>
+    window.alert( "Welcome technical mentor to my birthday calculator landing page portfolio.")
+    </script>
+    </body>
+    <script src="script.js"></script>
 </html>
