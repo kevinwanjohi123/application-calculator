@@ -2,11 +2,22 @@ img {
   float: left;
 }
 div {
-  width: 320px;
-  padding: 110px;
-  border: 105px solid gray;
-  margin: 1000;
+  width: 620px;
+  padding: 410px;
+  border: 205px solid purple;
+  margin: 100;
 }
 body {
   background-color: lightblue;
 }
+div:hover {
+  background-color: red;
+}
+img {
+  position: relative;
+  left: 300px;
+  bottom: 200px;
+  z-index: -2;
+}
+
+
